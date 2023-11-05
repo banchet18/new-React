@@ -1,0 +1,22 @@
+{
+  "name": "new-react",
+  "version": "1.0.0",
+  "description": "new react",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/banchet18/new-React.git"
+  },
+  "author": "chetan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/banchet18/new-React/issues"
+  },
+  "homepage": "https://github.com/banchet18/new-React#readme",
+  "devDependencies": {
+    "parcel": "^2.10.2"
+  }
+}
