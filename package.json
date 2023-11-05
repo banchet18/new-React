@@ -1,0 +1,16 @@
+{
+  "name": "new-react",
+  "version": "1.0.0",
+  "description": "new react",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/banchet18/new-React)"
+  },
+  "keywords": [],
+  "author": "chetan",
+  "license": "ISC"
+}
