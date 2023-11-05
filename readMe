@@ -15,4 +15,4 @@
 - Compress
 - Consistent Hashing
 - Code Splitting
-- Differential Bundling
+- Differential Bundling - support older browsers
