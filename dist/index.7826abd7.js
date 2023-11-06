@@ -2956,7 +2956,7 @@ console.log(heading);
 // JSX and react both are different
 // JSX is syntax
 // JSX - is not HTML in JS or HTML - like or XML-like syntax
-// JSX (transpiled before it reaches the JS Engine) -> PARCEL
+// JSX (transpiled before it reaches the JS Engine) -> PARCEL - Babel
 const jsxHeading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
     id: "heading",
     children: "Namaste react"
