@@ -2945,7 +2945,7 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _client = require("react-dom/client");
+var _client = require("react-dom/client"); // React Element
 var _clientDefault = parcelHelpers.interopDefault(_client);
 
   $parcel$ReactRefreshHelpers$c1db.postlude(module);

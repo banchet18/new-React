@@ -1,4 +1,4 @@
-5952
+5958
 90C:\Users\cbanj\Desktop\new-React\node_modules\csso\cjs\restructure\4-restructShorthand.cjs133436771509355571 0
 79C:\Users\cbanj\Desktop\new-React\node_modules\lmdb\dependencies\lz4\lib\lz4hc.h133436771520458363 0
 65C:\Users\cbanj\Desktop\new-React\node_modules\react-dom\client.js133436779741191811 0
@@ -23,7 +23,7 @@
 75C:\Users\cbanj\Desktop\new-React\node_modules\@parcel\source-map\index.d.ts133436771519509931 0
 88C:\Users\cbanj\Desktop\new-React\node_modules\posthtml\node_modules\posthtml-parser\dist133436771510733569 1
 67C:\Users\cbanj\Desktop\new-React\node_modules\color-convert\LICENSE133436771509065832 0
-39C:\Users\cbanj\Desktop\new-React\App.js133436790770373233 0
+39C:\Users\cbanj\Desktop\new-React\App.js133437517046426598 0
 52C:\Users\cbanj\Desktop\new-React\node_modules\srcset133436771508755347 1
 67C:\Users\cbanj\Desktop\new-React\node_modules\dotenv-expand\LICENSE133436771508281810 0
 77C:\Users\cbanj\Desktop\new-React\node_modules\caniuse-lite\data\regions\BI.js133436771518266948 0
@@ -40,14 +40,14 @@
 103C:\Users\cbanj\Desktop\new-React\node_modules\@parcel\core\test\fixtures\invalid-target-source-not-file133436771523196172 1
 93C:\Users\cbanj\Desktop\new-React\node_modules\csso\node_modules\css-tree\lib\walker\create.js133436771521929109 0
 84C:\Users\cbanj\Desktop\new-React\node_modules\react-dom\cjs\react-dom.development.js133436779741953818 0
-37C:\Users\cbanj\Desktop\new-React\dist133437513718441573 1
+37C:\Users\cbanj\Desktop\new-React\dist133437516383688012 1
 55C:\Users\cbanj\Desktop\new-React\node_modules\lru-cache133436771507993758 1
 83C:\Users\cbanj\Desktop\new-React\node_modules\.bin\node-gyp-build-optional-packages133436771532599855 0
 78C:\Users\cbanj\Desktop\new-React\node_modules\.bin\download-lmdb-prebuilds.ps1133436771532599855 0
 99C:\Users\cbanj\Desktop\new-React\node_modules\csso\node_modules\css-tree\lib\syntax\node\AnPlusB.js133436771520813462 0
 94C:\Users\cbanj\Desktop\new-React\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb133436771522068767 1
 77C:\Users\cbanj\Desktop\new-React\node_modules\domelementtype\lib\esm\index.js133436771507042373 0
-43C:\Users\cbanj\Desktop\new-React\index.html133436783752124092 0
+43C:\Users\cbanj\Desktop\new-React\index.html133437516931455833 0
 97C:\Users\cbanj\Desktop\new-React\node_modules\caniuse-lite\data\features\subresource-integrity.js133436771530418033 0
 88C:\Users\cbanj\Desktop\new-React\node_modules\@swc\helpers\src\_class_name_tdz_error.mjs133436771525657171 0
 45C:\Users\cbanj\Desktop\new-React\node_modules133436780757025360 1
@@ -2247,6 +2247,7 @@
 95C:\Users\cbanj\Desktop\new-React\node_modules\css-select\node_modules\domhandler\lib\index.d.ts133436771512918152 0
 96C:\Users\cbanj\Desktop\new-React\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\chacha8.h133436771520044152 0
 84C:\Users\cbanj\Desktop\new-React\node_modules\css-tree\lib\syntax\node\Identifier.js133436771522812955 0
+60C:\Users\cbanj\Desktop\new-React\dist\index.fe9d32e3.css.map133437514131534547 0
 96C:\Users\cbanj\Desktop\new-React\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\intro.doc133436771519958924 0
 94C:\Users\cbanj\Desktop\new-React\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\LICENSE133436771511849206 0
 96C:\Users\cbanj\Desktop\new-React\node_modules\css-select\node_modules\domutils\lib\esm\legacy.js133436771511170926 0
@@ -3613,6 +3614,7 @@
 95C:\Users\cbanj\Desktop\new-React\node_modules\css-select\node_modules\domutils\lib\traversal.js133436771513407736 0
 72C:\Users\cbanj\Desktop\new-React\node_modules\@parcel\cache\src\types.js133436771512468285 0
 99C:\Users\cbanj\Desktop\new-React\node_modules\css-select\node_modules\domutils\lib\traversal.js.map133436771516911453 0
+59C:\Users\cbanj\Desktop\new-React\dist\index.2d48916b.js.map133437514131534547 0
 97C:\Users\cbanj\Desktop\new-React\node_modules\css-select\node_modules\domutils\lib\esm\feeds.d.ts133436771517067382 0
 101C:\Users\cbanj\Desktop\new-React\node_modules\css-select\node_modules\domutils\lib\esm\feeds.d.ts.map133436771513794628 0
 95C:\Users\cbanj\Desktop\new-React\node_modules\css-select\node_modules\domutils\lib\esm\feeds.js133436771507144453 0
@@ -4627,6 +4629,7 @@
 101C:\Users\cbanj\Desktop\new-React\node_modules\@swc\helpers\src\_class_check_private_static_access.mjs133436771525591434 0
 98C:\Users\cbanj\Desktop\new-React\node_modules\@swc\helpers\src\_class_extract_field_descriptor.mjs133436771525601934 0
 92C:\Users\cbanj\Desktop\new-React\node_modules\@swc\helpers\src\_class_private_field_init.mjs133436771525696592 0
+56C:\Users\cbanj\Desktop\new-React\dist\index.fe9d32e3.css133437514131367693 0
 92C:\Users\cbanj\Desktop\new-React\node_modules\@swc\helpers\src\_class_private_method_set.mjs133436771525793767 0
 103C:\Users\cbanj\Desktop\new-React\node_modules\@swc\helpers\src\_create_for_of_iterator_helper_loose.mjs133436771525898583 0
 86C:\Users\cbanj\Desktop\new-React\node_modules\@swc\helpers\esm\_to_consumable_array.js133436771522257882 0
@@ -4797,7 +4800,7 @@
 66C:\Users\cbanj\Desktop\new-React\node_modules\@parcel\packager-raw133436771508478532 1
 76C:\Users\cbanj\Desktop\new-React\node_modules\@parcel\core\lib\buildCache.js133436771515826152 0
 67C:\Users\cbanj\Desktop\new-React\node_modules\@parcel\packager-wasm133436771510391268 1
-55C:\Users\cbanj\Desktop\new-React\dist\index.7826abd7.js133437513718222183 0
+55C:\Users\cbanj\Desktop\new-React\dist\index.7826abd7.js133437516383578421 0
 107C:\Users\cbanj\Desktop\new-React\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\index.d.ts133436771515469031 0
 62C:\Users\cbanj\Desktop\new-React\node_modules\@parcel\profiler133436771512341057 1
 66C:\Users\cbanj\Desktop\new-React\node_modules\@parcel\reporter-cli133436771512811798 1
@@ -5421,7 +5424,7 @@
 109C:\Users\cbanj\Desktop\new-React\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\compile.d.ts133436771515188493 0
 113C:\Users\cbanj\Desktop\new-React\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\general.d.ts.map133436771513691345 0
 107C:\Users\cbanj\Desktop\new-React\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\general.js133436771510416460 0
-59C:\Users\cbanj\Desktop\new-React\dist\index.7826abd7.js.map133437513718321890 0
+59C:\Users\cbanj\Desktop\new-React\dist\index.7826abd7.js.map133437516383676825 0
 111C:\Users\cbanj\Desktop\new-React\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\index.d.ts.map133436771513889058 0
 105C:\Users\cbanj\Desktop\new-React\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\index.js133436771510904000 0
 115C:\Users\cbanj\Desktop\new-React\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\procedure.d.ts.map133436771514180468 0
@@ -5947,7 +5950,10 @@
 55C:\Users\cbanj\Desktop\new-React\node_modules\.bin\svgo133436771532599855 0
 59C:\Users\cbanj\Desktop\new-React\node_modules\.bin\svgo.ps1133436771532599855 0
 77C:\Users\cbanj\Desktop\new-React\node_modules\.bin\update-browserslist-db.ps1133436771532609858 0
+55C:\Users\cbanj\Desktop\new-React\dist\index.2d48916b.js133437514131367693 0
 56C:\Users\cbanj\Desktop\new-React\dist\index.3a01df49.css133437513716789994 0
 60C:\Users\cbanj\Desktop\new-React\dist\index.3a01df49.css.map133437513716922032 0
 55C:\Users\cbanj\Desktop\new-React\dist\index.7408f493.js133437142643962888 0
-48C:\Users\cbanj\Desktop\new-React\dist\index.html133437513718431597 0
+55C:\Users\cbanj\Desktop\new-React\dist\index.af6a569e.js133437514131367693 0
+59C:\Users\cbanj\Desktop\new-React\dist\index.af6a569e.js.map133437514131534547 0
+48C:\Users\cbanj\Desktop\new-React\dist\index.html133437514131357714 0
