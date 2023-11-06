@@ -2952,17 +2952,20 @@ var _clientDefault = parcelHelpers.interopDefault(_client);
 const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
     id: "heading"
 }, "helllo channel");
+console.log(heading);
 // JSX and react both are different
 // JSX is syntax
 // JSX - is not HTML in JS or HTML - like or XML-like syntax
+// JSX (transpiled before it reaches the JS Engine) -> PARCEL
 const jsxHeading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
     id: "heading",
     children: "Namaste react"
 }, void 0, false, {
     fileName: "App.js",
-    lineNumber: 10,
+    lineNumber: 12,
     columnNumber: 20
 }, undefined);
+console.log(jsxHeading);
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(jsxHeading);
 
