@@ -5,7 +5,7 @@ import ReactDOM from "react-dom/client";
 
 const heading = React.createElement("h1", { id: "heading" }, "helllo channel");
 
-// JSX React
+// JSX - is not HTML in JS
 const jsxHeading = <h1>Namaste react</h1>;
 const root = ReactDOM.createRoot(document.getElementById("root"));
 

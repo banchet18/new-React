@@ -2952,7 +2952,7 @@ var _clientDefault = parcelHelpers.interopDefault(_client);
 const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
     id: "heading"
 }, "helllo channel");
-// JSX React
+// JSX - is not HTML in JS
 const jsxHeading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
     children: "Namaste react"
 }, void 0, false, {
