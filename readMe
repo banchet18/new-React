@@ -16,3 +16,6 @@
 - Consistent Hashing
 - Code Splitting
 - Differential Bundling - support older browsers
+- Diagnostic
+- Error Handling
+- Https
