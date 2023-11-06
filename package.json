@@ -2,7 +2,6 @@
   "name": "new-react",
   "version": "1.0.0",
   "description": "new react",
-  "main": "App.js",
   "scripts": {
     "test": "jest"
   },
