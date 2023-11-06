@@ -2951,6 +2951,7 @@ var _clientDefault = parcelHelpers.interopDefault(_client);
 const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
     id: "heading"
 }, "helllo channel");
+// JSX React
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(heading);
 
