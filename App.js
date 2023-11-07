@@ -10,12 +10,15 @@ console.log(heading);
 // JSX - is not HTML in JS or HTML - like or XML-like syntax
 // JSX (transpiled before it reaches the JS Engine) -> PARCEL - Babel
 // JSX => Babel transpiled it to React.createElement => React.Element - JS Object => HTMLElement(render)
-const jsxHeading = (
+
+// React Element
+const heading = (
   <h1 id="heading" className="head">
     Namaste react
   </h1>
 );
+
 console.log(jsxHeading);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(jsxHeading);
+root.render(heading);
