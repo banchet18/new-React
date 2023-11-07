@@ -18,7 +18,6 @@ const heading = (
   </h1>
 );
 
-console.log(jsxHeading);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(heading);
