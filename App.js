@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 // React.createElement  =>  ReactElememt-JS Object  =>  HTMLElement(render)
 
 // const heading = React.createElement("h1", { id: "heading" }, "helllo channel"); we wontbe using now onWords
-console.log(heading);
+// console.log(heading);
 // JSX and react both are different
 // JSX is syntax
 // JSX - is not HTML in JS or HTML - like or XML-like syntax

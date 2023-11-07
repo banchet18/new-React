@@ -2948,26 +2948,43 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-// React.createElement  =>  Object  =>  HTMLElement(render)
-const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
-    id: "heading"
-}, "helllo channel");
-console.log(heading);
+// React.createElement  =>  ReactElememt-JS Object  =>  HTMLElement(render)
+// const heading = React.createElement("h1", { id: "heading" }, "helllo channel"); we wontbe using now onWords
+// console.log(heading);
 // JSX and react both are different
 // JSX is syntax
 // JSX - is not HTML in JS or HTML - like or XML-like syntax
 // JSX (transpiled before it reaches the JS Engine) -> PARCEL - Babel
-const jsxHeading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+// JSX => Babel transpiled it to React.createElement => React.Element - JS Object => HTMLElement(render)
+// React Element
+const heading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
     id: "heading",
+    className: "head",
     children: "Namaste react"
 }, void 0, false, {
     fileName: "App.js",
-    lineNumber: 12,
-    columnNumber: 20
+    lineNumber: 16,
+    columnNumber: 3
 }, undefined);
-console.log(jsxHeading);
+// React Component
+// Class Based Component - OLD
+// Functional Component - NEW
+// React Functional Component
+const HeadingComponent = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+        className: "heading ",
+        children: "Namaste React Functional component"
+    }, void 0, false, {
+        fileName: "App.js",
+        lineNumber: 28,
+        columnNumber: 10
+    }, undefined);
+};
+_c = HeadingComponent;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-root.render(jsxHeading);
+root.render(heading);
+var _c;
+$RefreshReg$(_c, "HeadingComponent");
 
   $parcel$ReactRefreshHelpers$c1db.postlude(module);
 } finally {
