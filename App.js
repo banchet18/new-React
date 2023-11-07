@@ -26,7 +26,14 @@ const Header = () => {
           alt=""
         />
       </div>
-      <div className="nav-items"></div>
+      <div className="nav-items">
+        <ul>
+          <li>Home </li>
+          <li>About Us</li>
+          <li>Contact Us</li>
+          <li>Cart</li>
+        </ul>
+      </div>
     </div>
   );
 };
@@ -34,11 +41,11 @@ const Header = () => {
 const AppLayout = () => {
   return (
     <div className="app">
-      <h1></h1>
+      <Header />
     </div>
   );
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<HeadingComponent />);
+root.render(<AppLayout />);
