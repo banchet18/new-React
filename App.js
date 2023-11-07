@@ -18,7 +18,7 @@ const heading = (
   </h1>
 );
 
-// React Components
+// React Component
 // Class Based Component - OLD
 // Functional Component - NEW
 
