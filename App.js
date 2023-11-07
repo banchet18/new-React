@@ -14,7 +14,7 @@ import ReactDOM from "react-dom/client";
 // React Element
 const Title = () => (
   <h1 id="heading" className="head">
-    Namaste react
+    Namaste reactt
   </h1>
 );
 
