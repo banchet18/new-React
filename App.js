@@ -39,9 +39,13 @@ const Header = () => {
     </div>
   );
 };
+
+const styleCard = {
+  backgroundColor: "yellow",
+};
 const RestaurantCard = () => {
   return (
-    <div className="res-card">
+    <div className="res-card" style={styleCard}>
       <h3>Meghana Foods</h3>
     </div>
   );
@@ -49,7 +53,7 @@ const RestaurantCard = () => {
 const Body = () => {
   return (
     <div className="body">
-      <div className="Search">Search</div>
+      <div className="search">Search</div>
       <div className="res-container">
         <RestaurantCard />
       </div>
