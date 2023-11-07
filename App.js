@@ -24,9 +24,11 @@ const heading = (
 
 // React Functional Component
 
-const HeadingComponent = () => {
-  return <h1 className="heading ">Namaste React Functional component</h1>;
-};
+const HeadingComponent = () => (
+  <div id="container">
+    <h1 className="heading ">Namaste React Functional component</h1>
+  </div>
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 

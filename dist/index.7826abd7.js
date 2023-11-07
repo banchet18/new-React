@@ -2970,21 +2970,26 @@ const heading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
 // Class Based Component - OLD
 // Functional Component - NEW
 // React Functional Component
-const HeadingComponent = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-        className: "heading ",
-        children: "Namaste React Functional component"
+const HeadingComponent = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        id: "container",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+            className: "heading ",
+            children: "Namaste React Functional component"
+        }, void 0, false, {
+            fileName: "App.js",
+            lineNumber: 29,
+            columnNumber: 5
+        }, undefined)
     }, void 0, false, {
         fileName: "App.js",
         lineNumber: 28,
-        columnNumber: 10
+        columnNumber: 3
     }, undefined);
-};
 _c = HeadingComponent;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeadingComponent, {}, void 0, false, {
     fileName: "App.js",
-    lineNumber: 33,
+    lineNumber: 35,
     columnNumber: 13
 }, undefined));
 var _c;
