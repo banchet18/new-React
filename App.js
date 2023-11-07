@@ -19,8 +19,8 @@ const heading = (
 );
 
 // React Components
-// Class Based Component
-// Functional Component
+// Class Based Component - OLD
+// Functional Component - NEW
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
