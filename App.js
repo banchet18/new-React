@@ -12,7 +12,7 @@ import ReactDOM from "react-dom/client";
 // JSX => Babel transpiled it to React.createElement => React.Element - JS Object => HTMLElement(render)
 
 // React Element
-const heading = (
+const Title = () => (
   <h1 id="heading" className="head">
     Namaste react
   </h1>
@@ -24,8 +24,10 @@ const heading = (
 
 // React Functional Component
 
+// Component Composition
 const HeadingComponent = () => (
   <div id="container">
+    <Title />
     <h1 className="heading ">Namaste React Functional component</h1>
   </div>
 );
