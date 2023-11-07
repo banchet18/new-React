@@ -2982,7 +2982,11 @@ const HeadingComponent = ()=>{
 };
 _c = HeadingComponent;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-root.render(heading);
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeadingComponent, {}, void 0, false, {
+    fileName: "App.js",
+    lineNumber: 33,
+    columnNumber: 13
+}, undefined));
 var _c;
 $RefreshReg$(_c, "HeadingComponent");
 
