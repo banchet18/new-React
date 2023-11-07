@@ -40,13 +40,26 @@ const Header = () => {
   );
 };
 
-const styleCard = {
-  backgroundColor: "yellow",
-};
+// const styleCard = {
+//   backgroundColor: "#f0f0f0",
+// };
 const RestaurantCard = () => {
   return (
-    <div className="res-card" style={styleCard}>
+    <div
+      className="res-card"
+      style={{
+        backgroundColor: "#f0f0f0",
+      }}
+    >
+      <img
+        className="res-logo"
+        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_264,h_288,c_fill/m3wgo0jehsf1tcz150n7"
+        alt="res-logo"
+      />
       <h3>Meghana Foods</h3>
+      <h4>Biryani, North Indian, Asian</h4>
+      <h4>4.4 stars</h4>
+      <h4>38 minutes</h4>
     </div>
   );
 };
