@@ -22,6 +22,8 @@ const heading = (
 // Class Based Component - OLD
 // Functional Component - NEW
 
+// React Functional Component
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(heading);
