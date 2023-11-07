@@ -13,7 +13,7 @@ import ReactDOM from "react-dom/client";
  *  - Copyright
  *  - Links
  *  - Address
- *  - Contac
+ *  - Contact
  */
 
 // React.createElement  =>  ReactElememt-JS Object  =>  HTMLElement(render)
