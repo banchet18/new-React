@@ -28,7 +28,7 @@ const Title = () => (
 const HeadingComponent = () => (
   <div id="container">
     <Title />
-    <h2>{100 + 200}</h2>
+    <h2>{100 + 2000}</h2>
     <h1 className="heading ">Namaste React Functional component</h1>
   </div>
 );
