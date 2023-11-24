@@ -31,7 +31,7 @@ const Header = () => {
       <div className="nav-items">
         <ul>
           <li>Home </li>
-          <li>About Us</li>
+          <li>About </li>
           <li>Contact Us</li>
           <li>Cart</li>
         </ul>
@@ -39,6 +39,28 @@ const Header = () => {
     </div>
   );
 };
+
+// const Header = () => {
+//   return (
+//     <div className="header">
+//       <div className="logo-container">
+//         <img
+//           className="logo"
+//           src="https://www.logodesign.net/logo/smoking-burger-with-lettuce-3624ld.png?size=2"
+//           alt=""
+//         />
+//       </div>
+//       <div className="nav-items">
+//         <ul>
+//           <li>Home </li>
+//           <li>About Us</li>
+//           <li>Contact Us</li>
+//           <li>Cart</li>
+//         </ul>
+//       </div>
+//     </div>
+//   );
+// };
 
 // const styleCard = {
 //   backgroundColor: "#f0f0f0",
@@ -68,6 +90,8 @@ const Body = () => {
     <div className="body">
       <div className="search">Search</div>
       <div className="res-container">
+        <RestaurantCard />
+        <RestaurantCard />
         <RestaurantCard />
         <RestaurantCard />
         <RestaurantCard />
