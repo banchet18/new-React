@@ -40,7 +40,8 @@ const Header = () => {
   );
 };
 
-const RestaurantCard = ({ resName, cuisine }) => {
+const RestaurantCard = (props) => {
+  let { resName, cuisine } = props;
   return (
     <div
       className="res-card"
