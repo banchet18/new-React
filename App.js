@@ -61,6 +61,7 @@ const RestaurantCard = (props) => {
     </div>
   );
 };
+
 const Body = () => {
   return (
     <div className="body">
