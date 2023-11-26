@@ -55,3 +55,20 @@ const HeadingComponent = () => (
     <h1 className="heading ">Namaste React Functional component</h1>
   </div>
 );
+
+// layout
+
+- Header
+- - Logo
+- - Nav Items
+- Body
+- - Search
+- - RestaurantContainer
+- - RestaurantCard
+-     - img
+-     - Name of res, Star rating, cuisine, delivery etc
+- Footer
+- - Copyright
+- - Links
+- - Address
+- - Contact
