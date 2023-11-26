@@ -52,7 +52,7 @@ const RestaurantCard = (props) => {
       <img
         className="res-logo"
         src={
-          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_264,h_288,c_fill/" +
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/" +
           resdata.data.cloudinaryImageId
         }
         alt="res-logo"
@@ -808,6 +808,11 @@ const Body = () => {
         <RestaurantCard resdata={restaurantList[2]} />
         <RestaurantCard resdata={restaurantList[3]} />
         <RestaurantCard resdata={restaurantList[4]} />
+        <RestaurantCard resdata={restaurantList[5]} />
+        <RestaurantCard resdata={restaurantList[6]} />
+        <RestaurantCard resdata={restaurantList[7]} />
+        <RestaurantCard resdata={restaurantList[8]} />
+        <RestaurantCard resdata={restaurantList[9]} />
       </div>
     </div>
   );
