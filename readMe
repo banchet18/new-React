@@ -72,3 +72,16 @@ const HeadingComponent = () => (
 - - Links
 - - Address
 - - Contact
+
+
+// two types of import/export 
+
+1. default export/import
+   
+   Export ==> default export Component;
+   Import ==> import Component from "path"
+
+2. Name export/import
+
+   Export ==> export const Component
+   Import ==> import {Component} from "path"
