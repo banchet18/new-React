@@ -1,3 +1,5 @@
+import { CDN_URL } from "./utils.js/constants";
+
 const RestaurantCard = (props) => {
   let { resdata } = props;
   return (
@@ -9,10 +11,7 @@ const RestaurantCard = (props) => {
     >
       <img
         className="res-logo"
-        src={
-          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/" +
-          resdata.data.cloudinaryImageId
-        }
+        src={CDN_URL + resdata.data.cloudinaryImageId}
         alt="res-logo"
       />
       <h3>{resdata.data.name}</h3>
