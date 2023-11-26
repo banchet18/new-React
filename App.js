@@ -803,16 +803,9 @@ const Body = () => {
     <div className="body">
       <div className="search">Search</div>
       <div className="res-container">
-        <RestaurantCard resdata={restaurantList[0]} />
-        <RestaurantCard resdata={restaurantList[1]} />
-        <RestaurantCard resdata={restaurantList[2]} />
-        <RestaurantCard resdata={restaurantList[3]} />
-        <RestaurantCard resdata={restaurantList[4]} />
-        <RestaurantCard resdata={restaurantList[5]} />
-        <RestaurantCard resdata={restaurantList[6]} />
-        <RestaurantCard resdata={restaurantList[7]} />
-        <RestaurantCard resdata={restaurantList[8]} />
-        <RestaurantCard resdata={restaurantList[9]} />
+        {restaurantList.map((restaurant) => (
+          <RestaurantCard resdata={restaurant} />
+        ))}
       </div>
     </div>
   );
