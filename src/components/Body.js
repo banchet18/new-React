@@ -1,5 +1,5 @@
 import RestaurantCard from "./RestaurantCard";
-import restaurantList from "./restaurantList";
+import restaurantList from "./utils.js/restaurantList";
 
 const Body = () => {
   return (
