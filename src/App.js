@@ -1,29 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
-
-
-const Header = () => {
-  return (
-    <div className="header">
-      <div className="logo-container">
-        <img
-          className="logo"
-          src="https://www.logodesign.net/logo/smoking-burger-with-lettuce-3624ld.png?size=2"
-          alt="site logo"
-        />
-      </div>
-      <div className="nav-items">
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact Us</li>
-          <li>Cart</li>
-        </ul>
-      </div>
-    </div>
-  );
-};
+import Header from "./components/Header";
+import Body from "./components/Body";
 
 const RestaurantCard = (props) => {
   let { resdata } = props;
@@ -782,19 +760,6 @@ const restaurantList = [
     subtype: "basic",
   },
 ];
-
-const Body = () => {
-  return (
-    <div className="body">
-      <div className="search">Search</div>
-      <div className="res-container">
-        {restaurantList.map((restaurant) => (
-          <RestaurantCard resdata={restaurant} key={restaurant.data.id} />
-        ))}
-      </div>
-    </div>
-  );
-};
 
 const AppLayout = () => {
   return (
