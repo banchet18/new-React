@@ -5,7 +5,14 @@ const Body = () => {
   return (
     <div className="body">
       <div className="filter">
-        <button className="filter-btn">Top Rated Restaurant</button>
+        <button
+          className="filter-btn"
+          onClick={() => {
+            console.log("elllo");
+          }}
+        >
+          Top Rated Restaurant
+        </button>
       </div>
       <div className="res-container">
         {restaurantList.map((restaurant) => (
