@@ -8,7 +8,10 @@ const Body = () => {
         <button
           className="filter-btn"
           onClick={() => {
-            console.log("elllo");
+            restaurantList = restaurantList.filter((res) => {
+              return res.data.avgRating > 4;
+            });
+            console.log(restaurantList);
           }}
         >
           Top Rated Restaurant

@@ -722,7 +722,7 @@ const restaurantList = [
         iconType: "EMPTY",
       },
       promoted: false,
-      avgRating: "--",
+      avgRating: "4.2",
       totalRatings: 0,
       new: false,
     },
