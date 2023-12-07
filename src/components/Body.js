@@ -8,9 +8,9 @@ const Body = () => {
         <button
           className="filter-btn"
           onClick={() => {
-            restaurantList = restaurantList.filter((res) => {
-              return res.data.avgRating > 4;
-            });
+            restaurantList = restaurantList.filter(
+              (res) => res.data.avgRating > 4
+            );
             console.log(restaurantList);
           }}
         >
