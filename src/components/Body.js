@@ -3,7 +3,7 @@ import restaurantList from "./utils.js/restaurantList";
 import { useState } from "react";
 
 const Body = () => {
-  const [restaurantList] = useState();
+  const [listOfRestaurant, setListOfRestaurant] = useState(restaurantList);
 
   return (
     <div className="body">
@@ -12,17 +12,17 @@ const Body = () => {
           className="filter-btn"
           onClick={() => {
             //filter logic
-            restaurantList = restaurantList.filter(
+            const filteredList = listOfRestaurant.filter(
               (res) => res.data.avgRating > 4
             );
-            console.log(restaurantList);
+            setListOfRestaurant(filteredList);
           }}
         >
           Top Rated Restaurant
         </button>
       </div>
       <div className="res-container">
-        {restaurantList.map((restaurant) => (
+        {listOfRestaurant.map((restaurant) => (
           <RestaurantCard resdata={restaurant} key={restaurant.data.id} />
         ))}
       </div>
