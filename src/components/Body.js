@@ -31,7 +31,7 @@ const Body = () => {
             type="text"
             className="search-box"
             value={searchText}
-            onClick={(e) => {
+            onChange={(e) => {
               setSearchText(e.target.value);
             }}
           />
