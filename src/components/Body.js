@@ -19,6 +19,7 @@ const Body = () => {
     // setListOfRestaurant(json.data.card);
   };
 
+  // condition rendering
   if (listOfRestaurant.length === 0) {
     return <Shimmer />;
   }
