@@ -32,12 +32,14 @@ const Body = () => {
             type="text"
             className="search-box"
             value={searchText}
-            onChange={() => {}}
+            onChange={(e) => {
+              setSearchText(e.target.value);
+            }}
           />
           <button
             onClick={() => {
               //filter logic
-              console.log();
+              console.log(searchText);
             }}
           >
             search
