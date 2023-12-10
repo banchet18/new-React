@@ -40,7 +40,9 @@ const Body = () => {
             onClick={() => {
               //filter logic
               const filteredRestrauant = listOfRestaurant.filter((res) => {
-                return res.data.name.includes(searchText);
+                return res.data.name
+                  .toLowerCase()
+                  .includes(searchText.toLowerCase());
               });
 
               setListOfRestaurant(filteredRestrauant);
