@@ -39,7 +39,11 @@ const Body = () => {
           <button
             onClick={() => {
               //filter logic
-              console.log(searchText);
+              const filteredRestrauant = listOfRestaurant.filter((res) => {
+                return res.data.name === searchText;
+              });
+
+              setListOfRestaurant(filteredRestrauant);
             }}
           >
             search
