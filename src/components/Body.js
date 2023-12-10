@@ -5,6 +5,7 @@ import Shimmer from "./shimmer";
 
 const Body = () => {
   const [listOfRestaurant, setListOfRestaurant] = useState(restaurantList);
+
   const [searchText, setSearchText] = useState("");
 
   useEffect(() => {
@@ -27,8 +28,15 @@ const Body = () => {
     <div className="body">
       <div className="filter">
         <div className="search">
-          <input type="text" className="search-box" />
-          <button>search</button>
+          <input type="text" className="search-box" value={searchText} />
+          <button
+            onClick={() => {
+              //filter the restraunt
+              console.log(searchText);
+            }}
+          >
+            search
+          </button>
         </div>
         <button
           className="filter-btn"
