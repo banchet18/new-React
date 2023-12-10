@@ -28,11 +28,16 @@ const Body = () => {
     <div className="body">
       <div className="filter">
         <div className="search">
-          <input type="text" className="search-box" value={searchText} />
+          <input
+            type="text"
+            className="search-box"
+            value={searchText}
+            onChange={() => {}}
+          />
           <button
             onClick={() => {
-              //filter the restraunt
-              console.log(searchText);
+              //filter logic
+              console.log();
             }}
           >
             search
