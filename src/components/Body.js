@@ -40,7 +40,7 @@ const Body = () => {
             onClick={() => {
               //filter logic
               const filteredRestrauant = listOfRestaurant.filter((res) => {
-                return res.data.name === searchText;
+                return res.data.name.includes(searchText);
               });
 
               setListOfRestaurant(filteredRestrauant);
